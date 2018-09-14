@@ -1,0 +1,53 @@
+body{
+	background-color: #9A9EAB;
+	font-family: Comfortaa;
+	text-align: center;
+}
+
+* { 
+	box-sizing: border-box;
+}
+
+.wrapper {
+	border-radius: 5px;
+	margin-bottom: 2em;
+}
+
+.wrapper > div {
+	background-color: white;
+	border-radius: 5px;
+	padding: 10px;
+	font-weight: bold;
+}
+
+.flex {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.flex > * {
+	flex: 1 1 300px;
+	margin: 10px;
+}
+
+.flex-item{
+	width: 100%;
+}
+
+img{
+	width: 60%;
+}
+
+h2{
+	color: #EC96A4;
+}
+
+/*breakpoints iphone 8
+@media only screen and (max-width: 414px) {
+
+.wrapper{
+	width: 100%;
+	padding-left: 75px;
+}
+
+}
